@@ -1,7 +1,6 @@
 FROM node:18-alpine
-WORKDIR /app
-COPY package*.json ./
-RUN yarn install
+WORKDIR /app 
 COPY . .
-EXPOSE 5173
-CMD ["yarn", "dev"]
+RUN yarn install
+EXPOSE 1337
+CMD ["npm", "run", "develop"]
