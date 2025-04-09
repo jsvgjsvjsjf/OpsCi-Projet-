@@ -22,6 +22,3 @@ Dockercompose (dans la racine du projet) permettant de lancer simultanément str
 Commande pour lancer le dockercompose: docker-compose build puis docker-compose up -d  
 Les répertoires events_data, products_data et stocks_data contiennent respectivement les fichiers events.csv, products.csv et stocks.csv permettant la bon fonctionnement du docker-compose.
 
-## Information 
-
-Nous avons eu un gros problème technique durant la réalisation du projet. En effet durant un test de notre projet pour réaliser la vidéo, l'ordinateur sur laquelle nous avions fait tout notre projet à casser (écran BSoD). Nous n'avons donc pas pu enregistrer la vidéo. Nous avons réussi à réparer le pc de justesse mais nous ne voulons pas prendre le risque de refaire le projet en vidéo. Il n'y a donc pas la vidéo qui accompagne le projet. 
